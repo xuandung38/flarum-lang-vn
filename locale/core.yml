@@ -411,7 +411,7 @@ core:
 
     # These translations are used in the Settings page.
     settings:
-      account_heading: Konto
+      account_heading: Tài khoản
       change_email_button: => core.ref.change_email
       change_password_button: => core.ref.change_password
       notifications_heading: => core.ref.notifications
@@ -649,10 +649,10 @@ core:
   # Translations in this namespace are used to translate default group names.
   group:
     admin: Quản trị viên
-    admins: Các quản trị viên.
+    admins: Quản trị viên.
     guest: Khách
     guests: Khách
     member: Thành viên
-    members: Các thành viên
+    members: Thành viên
     mod: Người kiểm duyệt
     mods: Người kiểm duyệt
