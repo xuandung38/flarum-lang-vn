@@ -2,10 +2,7 @@
 Gói ngôn ngữ tiếng Việt cơ bản cho Flarum
 
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
-
-![](https://img.shields.io/packagist/v/xuandung38/flarum-lang-vn.svg)
-
-![](https://img.shields.io/packagist/dt/xuandung38/flarum-lang-vn.svg)
+![](https://img.shields.io/packagist/dt/xuandung38/flarum-lang-vn)
 
 ## Thông tin (Infomation)
 ### Cài đặt, Cập nhật (Installation, Update)
