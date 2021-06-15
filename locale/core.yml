@@ -269,9 +269,9 @@ core:
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "Du har inte skickat ditt inlägg. Vill du fortsätta ändå?"
-      posted_message: Ditt svar har skickats.
-      submit_button: Skicka svar
+      discard_confirmation: "Bạn chưa gửi bài của bạn.Bạn có muốn tiếp tục không?"
+      posted_message: Câu trả lời của bạn đã được gửi.
+      submit_button: Gửi câu trả lời
       view_button: => core.ref.view
 
     # These translations are used by the discussion control buttons.
