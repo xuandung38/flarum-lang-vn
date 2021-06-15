@@ -1,0 +1,46 @@
+{
+  "name": "xuandung38/flarum-lang-vn",
+  "version": "1.0.0",
+  "description": "Custom Vietnamese language pack (xuandung38)",
+  "type": "flarum-extension",
+  "license": "MIT",
+  "keywords": [
+    "extention",
+    "locale",
+    "flarum",
+    "Vietnamese",
+    "Tieng Viet",
+    "translation"
+  ],
+  "authors": [
+    {
+      "name": "Xuan Dung, Ho (hxd.vn)",
+      "email": "me@hxd.vn",
+      "homepage": "http://hxd.vn"
+    }
+  ],
+  "require": {
+    "flarum/core": "^1.0"
+  },
+  "extra": {
+    "branch-alias": {
+        "dev-master": "1.x-dev"
+    },
+    "flarum-extension": {
+        "title": "Vietnamese",
+        "icon": {
+            "image": "icon.svg",
+            "backgroundColor": "#00247d",
+            "backgroundSize": "cover",
+            "backgroundPosition": "center"
+        }
+    },
+    "flarum-locale": {
+        "code": "vi",
+        "title": "Vietnamese"
+    },
+    "flagrow": {
+      "discuss": "http://hxd.vn"
+    }
+  }
+}
