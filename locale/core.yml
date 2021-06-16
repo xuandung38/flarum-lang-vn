@@ -253,10 +253,10 @@ core:
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
       body_placeholder: Viết một bài viết....
-      discard_confirmation: "Bạn chưa tạo chủ đề của bạn.Bạn có muốn tiếp tục thoát không?"
-      submit_button: Tạo chủ đề
+      discard_confirmation: "Bạn chưa tạo bài viết.Bạn có muốn tiếp tục thoát không?"
+      submit_button: Tạo bài viết
       title: => core.ref.start_a_discussion
-      title_placeholder: Tiêu đề của chủ đề
+      title_placeholder: Tiêu đề của bài viết
 
     # These translations are used by the composer when editing a post.
     composer_edit:
@@ -277,9 +277,9 @@ core:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       cannot_reply_button: Không thể trả lời
-      cannot_reply_text: Bạn không có quyền trả lời chủ đề này.
+      cannot_reply_text: Bạn không có quyền trả lời bài viết này.
       delete_button: => core.ref.delete
-      delete_confirmation: "Bạn có chắc chắn muốn xóa chủ đề này?"
+      delete_confirmation: "Bạn có chắc chắn muốn xóa bài viết này?"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: Đăng nhập để trả lời
       rename_button: => core.ref.rename
@@ -288,7 +288,7 @@ core:
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: Có vẻ như không có chủ đề ở đây.
+      empty_text: Có vẻ như không có bài viết ở đây.
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: đánh dấu là đã đọc
       replied_text: "{username} đã trả lời {ago}"
@@ -332,8 +332,8 @@ core:
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Không thể bắt đầu chủ đề
-      mark_all_as_read_confirmation: "Bạn có chắc chắn muốn đánh dấu tất cả các chủ đề là đã đọc?"
+      cannot_start_discussion_button: Không thể tạo bài viết
+      mark_all_as_read_confirmation: "Bạn có chắc chắn muốn đánh dấu tất cả các bài viết là đã đọc?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       meta_title_text: => core.ref.all_discussions
       refresh_tooltip: Làm mới
@@ -401,11 +401,11 @@ core:
     # These translations are used by the rename discussion modal.
     rename_discussion:
       submit_button: => core.ref.rename
-      title:  Đổi tên chủ đề
+      title:  Đổi tên bài viết
 
     # These translations are used by the search results dropdown list.
     search:
-      all_discussions_button: 'Tìm kiếm tất cả các chủ đề sau "{query}"'
+      all_discussions_button: 'Tìm kiếm tất cả các bài viết có từ "{query}"'
       discussions_heading: => core.ref.discussions
       users_heading: Người dùng
 
@@ -417,7 +417,7 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: Ai đó thay đổi tên của một chủ đề tôi đã bắt đầu
+      notify_discussion_renamed_label: Ai đó thay đổi tên của một bài viết tôi đã tạo
       privacy_disclose_online_label: Cho phép người khác nhìn thấy khi tôi trực tuyến
       privacy_heading: Quyền riêng tư
       title: => core.ref.settings
@@ -599,7 +599,7 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: Tất cả các chủ đề.
+    all_discussions: Tất cả các bài viết.
     change_email: Thay đổi địa chỉ email
     change_password: Đổi mật khẩu
     color: Màu sắc                                 # Referenced by flarum-tags.yml
@@ -635,7 +635,7 @@ core:
     settings: Cài đặt
     sign_up: Đăng ký
     some_others: "{count, plural, one {# người khác} người khác {# người khác}}"   # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Bắt đầu một chủ đề
+    start_a_discussion: Tạo bài viết
     username: Tên tài khoản
     users: Người dùng                              # Referenced by flarum-statistics.yml
     view: Visa
